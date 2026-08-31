@@ -7,49 +7,69 @@ PORT=5000
 # =========================================================
 # DATABASE — TiDB Cloud / MySQL
 # =========================================================
-DB_HOST=
+DB_HOST=gateway01.eu-central-1.prod.aws.tidbcloud.com
 DB_PORT=4000
-DB_USER=
-DB_PASSWORD=
+DB_USER=2Pv5PKgQJEjk7jh.root
+DB_PASSWORD=UNR9j4jo0LB9JbhJ
 DB_NAME=cryptopulse_v3
 DB_CONNECTION_LIMIT=10
 
 # =========================================================
 # VEXATRADE AUTHENTICATION
 # =========================================================
-JWT_SECRET=
+JWT_SECRET=601a209a777e4a2ffadb930cd6ec17dca3ddfac2932394e47dc73ecbdfbf7842
 
 # =========================================================
 # VEXAACCOUNT SSO
 # =========================================================
 VEXA_ACCOUNT_URL=https://api-vexaaccount.onrender.com
 VEXA_ACCOUNT_CLIENT_ID=
-VEXA_ACCOUNT_CLIENT_SECRET=
-VEXA_ACCOUNT_REDIRECT_URI=
-VEXA_ACCOUNT_SSO_STATE_SECRET=
+VEXA_ACCOUNT_CLIENT_SECRET=601a209a777e4a2ffadb930cd6ec17dca3ddfac2932394e47dc73ecbdfbf7842
+VEXA_ACCOUNT_REDIRECT_URI=https://api-vexaaccount.onrender.com
+VEXA_ACCOUNT_SSO_STATE_SECRET=601a209a777e4a2ffadb930cd6ec17dca3ddfac2932394e47dc73ecbdfbf7842
 VEXA_ACCOUNT_TIMEOUT_MS=10000
 
 # =========================================================
 # FRONTEND
 # =========================================================
-FRONTEND_URL=
+FRONTEND_URL=https://www.vexatrade-v.2bd.net
+FRONTEND-ADMIN=https://admin.vexatrade-v.2bd.net
+CLIENT_ORIGIN=https://admin.vexatrade-v.2bd.net
+FRONTEND_EMPLOYEEMONITOR_URLhttps://employee-admin-monitor-vexatrade.onrender.com
+
+
+
+ADMIN_EMAIL=admin@vexastore.com
+ADMIN_PASSWORD=Admin@123
+
 
 # =========================================================
 # CLOUDINARY — uploads / KYC / receipts / QR
 # =========================================================
-CLOUDINARY_CLOUD_NAME=
-CLOUDINARY_API_KEY=
-CLOUDINARY_API_SECRET=
+CLOUDINARY_CLOUD_NAME=dzx28ywoy
+CLOUDINARY_API_KEY=781679351488584
+CLOUDINARY_API_SECRET=Uh_6eBLGFKFYp9o-NP-bj__mRv8
 
 # =========================================================
 # EMAIL / BREVO
 # =========================================================
 BREVO_API_KEY=
-FROM_EMAIL=
+FROM_EMAIL=vexatradeblockchainecosystem@gmail.com
 MAIL_FROM_NAME=VexaTrade
 
 # =========================================================
 # OPTIONAL LEGACY EMAIL COMPATIBILITY
 # =========================================================
-KEPLERS_PASSWORD=
-SMTP_PASS=
+KEPLERS_PASSWORD=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
+SMTP_PASS=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
+KEPLERS_SMPT_KEY=xsmtpsib-73652be4912e5e804f7bd6223c62a470a4d3c004beb5266b2ec502453b5e866c-QcG3BVSOyP7mnbAc
+KEPLERS_EMAIL=vexatradeblockchainecosystem@gmail.com
+KEPLERS_SMTP_HOST=b53665001@smtp-brevo.com
+KEPLERS_SMTP_USER=b5390e001@smtp-brevo.com
+KEPLERS_SMTP_PORT=587
+
+SMPT_KEY=xsmtpsib-73652be4912e5e804f7bd6223c62a470a4d3c004beb5266b2ec502453b5e866c-QcG3BVSOyP7mnbAc
+SMTP_HOST=b5390e001@smtp-brevo.com
+SMTP_PASS=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
+SMTP_PORT=587
+SMTP_USER=b53665001@smtp-brevo.comb5390e001@smtp-brevo.com
