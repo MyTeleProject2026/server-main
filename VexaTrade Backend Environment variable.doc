@@ -1,0 +1,55 @@
+# =========================================================
+# VEXATRADE BACKEND
+# =========================================================
+NODE_ENV=production
+PORT=5000
+
+# =========================================================
+# DATABASE — TiDB Cloud / MySQL
+# =========================================================
+DB_HOST=
+DB_PORT=4000
+DB_USER=
+DB_PASSWORD=
+DB_NAME=cryptopulse_v3
+DB_CONNECTION_LIMIT=10
+
+# =========================================================
+# VEXATRADE AUTHENTICATION
+# =========================================================
+JWT_SECRET=
+
+# =========================================================
+# VEXAACCOUNT SSO
+# =========================================================
+VEXA_ACCOUNT_URL=https://api-vexaaccount.onrender.com
+VEXA_ACCOUNT_CLIENT_ID=
+VEXA_ACCOUNT_CLIENT_SECRET=
+VEXA_ACCOUNT_REDIRECT_URI=
+VEXA_ACCOUNT_SSO_STATE_SECRET=
+VEXA_ACCOUNT_TIMEOUT_MS=10000
+
+# =========================================================
+# FRONTEND
+# =========================================================
+FRONTEND_URL=
+
+# =========================================================
+# CLOUDINARY — uploads / KYC / receipts / QR
+# =========================================================
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+# =========================================================
+# EMAIL / BREVO
+# =========================================================
+BREVO_API_KEY=
+FROM_EMAIL=
+MAIL_FROM_NAME=VexaTrade
+
+# =========================================================
+# OPTIONAL LEGACY EMAIL COMPATIBILITY
+# =========================================================
+KEPLERS_PASSWORD=
+SMTP_PASS=
